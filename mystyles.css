@@ -1,0 +1,175 @@
+@charset "ISO-8859-1";
+
+body{
+  background-image: url("11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  }
+h1{
+  color: rgb(250, 250, 250);
+}
+.homediv{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*header menu bar styles*/
+.header{
+  float: left;
+  width:100%;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  padding-top: 20px;
+}
+
+.header a{
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.header a:hover{
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+
+/*form styles*/
+.formdiv
+{
+  width: 450px;
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 60px;
+  box-shadow: 0px 0px 10px #000000;
+  color: white;
+  
+  
+}
+
+.formdiv td
+{
+  font-size: 16px;
+}
+
+.formdiv input[type=text], input[type=date], textarea, select
+{
+  height: 30px;
+  width: 290px;
+  background-color: #FFFFFF;
+  margin: 7px 0px 7px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px #000000;
+  padding: 0px 10px;
+}
+
+.formdiv input[type=text]:focus, input[type=date]:focus, textarea:focus, select:focus
+{
+	outline: none;
+}
+
+.formdiv textarea
+{
+	height: 60px;
+	padding: 10px;
+}
+
+.formdiv input[type=submit], input[type=reset]
+{
+  height: 40px;
+  width : 150px;
+  margin: 20px 150px 0px;
+  border-radius: 20px;
+  border: none;
+  background-color: #284f9c;
+  color: #FFFFFF;
+  transition-duration: 300ms;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formdiv input[type=submit]:hover, input[type=reset]:hover
+{
+  background-color: #00007b;
+}
+
+
+/*table styles*/
+.list
+{
+	width: 100%;
+	color: white;
+}
+
+.list table
+{
+	border-collapse: collapse;
+	margin: 100px;
+	
+	/*background-color: #FFFFFF;*/
+}
+
+.list table th
+{
+	background-color: #00008b;
+	color: white;
+}
+
+
+.list table tr:nth-child(even)
+{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.list table tr:nth-child(odd)
+{
+	background-color: rgba(0, 0, 139, 0.7);
+}
+
+.list table input[type=submit]
+{
+	height: 30px;
+  	width : 100px;
+  	border-radius: 20px;
+  	border: none;
+  	background-color: white;
+  	color: #00008B ;
+  	transition-duration: 300ms;
+  	font-size: 14px;
+}
+
+.list table input[type=submit]:hover
+{
+	background-color: #00008B;
+	color: white;
+}
+
+.list caption a
+{
+	float: right;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left : 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: white;
+	color:#00008B;
+	transition-duration: 300ms;
+}
+
+.list caption a:hover
+{
+	background-color: #00008B;
+}
+
